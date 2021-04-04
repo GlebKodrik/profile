@@ -1,0 +1,11 @@
+export const Header = () => {
+  return (
+    <div>
+      <header>
+        <div className="container">
+
+        </div>
+      </header>
+    </div>
+  );
+};

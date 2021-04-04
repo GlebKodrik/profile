@@ -1,0 +1,9 @@
+export const About = () => {
+  return (
+    <div className={}>
+      <div className="container">
+        <div>О себе</div>
+      </div>
+    </div>
+  );
+};

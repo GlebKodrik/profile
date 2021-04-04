@@ -1,0 +1,17 @@
+.nav ul>li>a{
+    color: white;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 60px;
+}
+.navbar__wrap{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__logo{
+    width: 50px;
+    cursor: pointer;
+}
