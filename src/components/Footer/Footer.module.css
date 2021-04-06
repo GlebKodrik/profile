@@ -1,0 +1,8 @@
+
+export const Footer = () =>{
+    return <footer className={s.footer}>
+        <div className="container">
+            Footer
+        </div>
+    </footer>
+}
