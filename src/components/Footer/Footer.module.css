@@ -1,8 +1,19 @@
-
-export const Footer = () =>{
-    return <footer className={s.footer}>
-        <div className="container">
-            Footer
-        </div>
-    </footer>
+.footer{
+    padding: 40px 0;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.footer__item img{
+    margin-left: 10px;
+    width: 50px;
 }
