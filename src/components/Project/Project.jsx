@@ -4,7 +4,7 @@ import api from "./../../assets/img/api.png";
 import profile from "./../../assets/img/profile.jpg";
 import exc from "./../../assets/img/exc.jpg";
 import shop from "./../../assets/img/shop.jpg";
-import excel from "./../../assets/Project.xlsb";
+import excel from "./../../assets/vba.rar";
 import shopSite from "./../../assets/Shop.rar";
 
 import cn from "classnames";
@@ -63,7 +63,7 @@ export const Project = () => {
             </div>
             <div className={s.project__button}>
               <Button type="primary">
-                <a href={excel} download={"Project.xlsb"}>
+                <a href={excel} download={"vba.rar"}>
                   Скачать файл
                 </a>
               </Button>
