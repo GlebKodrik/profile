@@ -1,0 +1,40 @@
+.project{
+    margin: 40px 0;
+}
+.project__img img{
+    width: 400px;
+}
+.project__img {
+    border: 1px solid black;
+    min-height: 207px;
+}
+.project__block{
+    padding: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(25, 64, 94, 0.2);
+    margin: 15px;
+    text-align: center;
+    width: 400px;
+}
+.project__block:hover{
+    box-shadow: 0px 4px 7px 4px rgba(9, 143, 246, 0.2);
+}
+.project__button{
+    margin-top: 10px;
+}
+.project__button button{
+    margin-right: 10px;
+}
+.project__button button:last-child{
+    margin-right: 0;
+}
+.project__title{
+    margin-bottom: 10px;
+}
+.project__wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.project__end{
+    margin: 20px auto;
+    margin-bottom: 0;
+}

@@ -5,9 +5,9 @@ import { AboutItem } from "./AboutItem/AboutItem";
 export const About = () => {
   const description = useSelector((state) => state.profile.description);
   return (
-    <div className={s.about}>
+    <div className={s.about} id={"about"}>
       <div className="container">
-        <div className={s.about__title}>О себе</div>
+        <div className="title">О себе</div>
         <div className={s.about__wrap}>
           {description.map((item) => (
             <AboutItem key={item.id} {...item} />

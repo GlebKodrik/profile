@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -65,4 +66,12 @@ input::-webkit-inner-spin-button {
     margin: 0 auto;
     min-width: 978px;
     max-width: 1500px;
+}
+.title{
+    font-size: 32px;
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4DA5D1;
+    margin: 0 auto;
+    margin-bottom: 28px;
 }
