@@ -38,3 +38,21 @@
     margin: 20px auto;
     margin-bottom: 0;
 }
+@media screen and (max-width: 1000px) {
+    .project__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project__block{
+
+    }
+}
+@media screen and (max-width: 418px) {
+    .project__block{
+        width: 100%;
+    }
+    .project__img{
+        min-height: 100%;
+    }
+}
