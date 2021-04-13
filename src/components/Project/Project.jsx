@@ -57,7 +57,7 @@ export const Project = () => {
           </div>
 
           <div className={s.project__block}>
-            <div className={s.project__title}>K-cervice</div>
+            <div className={s.project__title}>Vba</div>
             <div className={s.project__img}>
               <img src={exc} alt="" />
             </div>
